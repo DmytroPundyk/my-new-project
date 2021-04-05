@@ -1,0 +1,62 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: whitesmoke;
+  color: white;
+}
+
+/*навигация сайта*/
+
+.site-navigation {
+  background-color: rgb(65, 62, 62);
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  height: 100px;
+  font-size: x-large;
+}
+.title-h4 {
+  margin: 30px 20px;
+  padding: 0 0 0 100px;
+}
+
+/*Основной контент*/
+.main-content {
+  padding: 100px 90px;
+}
+.superscript-text {
+  font-size: small;
+  color: rgb(230, 103, 103);
+}
+.my-education-project {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  height: 1600px;
+  left: 40px;
+  top: 20px;
+  background: rgb(231, 218, 195);
+  color: blue;
+}
+
+/*Aside контент*/
+.photo-setting {
+  width: 400px;
+  height: 300px;
+  margin: 100px 0 0 0;
+}
+.link-goit {
+  color: coral;
+  margin-left: 40px;
+}
+/*Подвал сайта*/
+.my-site-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+  background-color: rgb(65, 62, 62);
+  padding: 20px 0;
+}
+.contact-link {
+  color: blue;
+}
