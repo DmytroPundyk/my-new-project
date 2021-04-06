@@ -39,7 +39,7 @@ body {
   color: blue;
 }
 
-/*Aside контент*/
+/*Aside контент і форма*/
 .photo-setting {
   width: 400px;
   height: 300px;
@@ -49,15 +49,64 @@ body {
   color: coral;
   margin-left: 40px;
 }
+.decor {
+  position: relative;
+  max-width: 400px;
+  margin: 50px auto 0;
+  background: white;
+  border-radius: 30px;
+}
+
+.form-inner {
+  padding: 55px;
+}
+.form-inner input,
+.form-inner textarea {
+  display: block;
+  width: 100%;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  background: #e9eff6;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.form-inner input[type="submit"] {
+  margin-top: 30px;
+  background: #f69a73;
+  border-bottom: 4px solid #d87d56;
+  color: white;
+  font-size: 14px;
+}
+.form-inner textarea {
+  resize: none;
+}
+.form-inner h3 {
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #707981;
+}
 /*Подвал сайта*/
 .my-site-footer {
   display: flex;
+  flex-direction: row;
+  width: 1150px;
+  background-color: rgb(100, 99, 99);
+  background-image: url("../img/back1.png");
+  padding: 20px 0 20px 50px;
+}
+.my-site-contact-footer {
+  display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 1200px;
-  background-color: rgb(65, 62, 62);
-  padding: 20px 0;
+  align-items: flex-start;
 }
 .contact-link {
-  color: blue;
+  color: rgb(223, 217, 217);
+}
+.google-map-frame {
+  align-items: flex-end;
+  margin: 0 0 0 150px;
 }
